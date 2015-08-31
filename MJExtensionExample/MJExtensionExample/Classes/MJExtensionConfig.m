@@ -10,22 +10,7 @@
 #import "MJExtension.h"
 #import "Bag.h"
 #import "User.h"
-#import "StatusResult.h"
-#import "Student.h"
-#import "Dog.h"
-#import "Book.h"
 
-@implementation MJExtensionConfig
-/**
- *  这个方法会在MJExtensionConfig加载进内存时调用一次
- */
-+ (void)load
-{
-#pragma mark 如果使用NSObject来调用这些方法，代表所有类都会生效
-    
-#pragma mark User类的只有name、icon属性参与字典转模型
-//    [User setupAllowedPropertyNames:^NSArray *{
-//        return @[@"name", @"icon"];
 //    }];
     // 相当于在User.m中实现了+(NSArray *)allowedPropertyNames方法
     

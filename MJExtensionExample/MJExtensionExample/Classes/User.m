@@ -11,7 +11,3 @@
 @implementation User
 //+ (NSArray *)allowedPropertyNames
 //{
-//    return @[@"name", @"icon"];
-//}
-MJExtensionLogAllProperties
-@end

@@ -9,14 +9,4 @@
 #import "Student.h"
 
 @implementation Student
-//+ (NSDictionary *)replacedKeyFromPropertyName
-//{
-//    return @{@"ID" : @"id",
-//             @"desc" : @"desciption",
-//             @"oldName" : @"name.oldName",
-//             @"nowName" : @"name.newName",
-//             @"nameChangedTime" : @"name.info[1].nameChangedTime",
-//             @"bag" : @"other.bag"
-//             };
-//}
-@end
+//+ (NSD
